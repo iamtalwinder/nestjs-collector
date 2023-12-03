@@ -1,4 +1,4 @@
-import { ITransaction } from '../../transaction';
+import { ITransaction } from '../../transaction.interface';
 
 export interface IRuleValidator {
   validate(transaction: ITransaction): boolean;

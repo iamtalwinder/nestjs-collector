@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
-import { CollectorModule } from '@lib/index';
 import { TransactionService } from './transaction.service';
 import { AmountRuleValidator, CurrencyRuleValidator, TransactionRuleValidator } from './validator';
+import { CollectorModule } from '../../lib';
 
 @Module({
   imports: [CollectorModule],

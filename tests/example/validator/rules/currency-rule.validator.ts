@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
-import { Collectable } from '@lib/index';
 import { AbstractRuleValidator } from './abstract-rule.validator';
-import { ITransaction } from '../../transaction';
+import { ITransaction } from '../../transaction.interface';
+import { Collectable } from '../../../../lib';
 
 @Collectable('TransactionRules')
 @Injectable()

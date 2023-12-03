@@ -2,12 +2,14 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/spec",
-    "rootDir": "./"
+    "rootDir": "./",
+    "paths": {
+      "@lib/*": ["./lib/*"]
+    }
   },
   "include": [
     "lib/**/*",
-    "tests/**/*",
-    "examples/**/*"
+    "tests/**/*"
   ],
   "exclude": ["node_modules"]
 }

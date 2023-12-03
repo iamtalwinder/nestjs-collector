@@ -88,9 +88,7 @@ export class AppModule {}
 
 ## Comprehensive Examples
 
-For more in-depth examples, please refer to the `examples` folder in this repository. It contains extensive guides and practical use cases, demonstrating the versatile applications of `nestjs-collector`.
-
----
+For more in-depth examples, please refer to the `tests/example` folder in this repository. It contains extensive guides and practical use cases, demonstrating the versatile applications of `nestjs-collector`.
 
 ## Contributing
 

@@ -26,7 +26,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*spec.ts', 'examples/**/*'],
+      files: ['*spec.ts', 'tests/**/*'],
       parserOptions: {
         project: 'tsconfig.spec.json',
       },
