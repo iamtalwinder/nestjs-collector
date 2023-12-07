@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/spec",
+    "rootDir": "./",
+    "paths": {
+      "@lib/*": ["./lib/*"]
+    }
+  },
+  "include": [
+    "lib/**/*",
+    "tests/**/*"
+  ],
+  "exclude": ["node_modules"]
+}
